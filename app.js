@@ -1,0 +1,30 @@
+//não tem nada aqui de especial, apenas para testes.
+
+let numeroBatatas = gerarNumeroAleatorio(10);
+let batatas = numeroBatatas;
+let quantidade;
+let numeroMaximo = 10;
+let palavraBatata;
+
+if (batatas > 1){
+    palavraBatata = "batatas";
+}   else{
+    palavraBatata = "batata";
+}
+
+ChecarBatatas()
+
+function ChecarBatatas(){
+    console.log (numeroBatatas); 
+
+    if (batatas >= 5){
+        quantidade = `Você tem várias batatas! São ${batatas} ${palavraBatata}.`
+    }   else{
+        quantidade = `Você tem poucas batatas, apenas ${batatas} ${palavraBatata}.`
+    }    
+    console.log (quantidade);
+}
+
+function gerarNumeroAleatorio(maximo){
+    return Math.floor(Math.random() * maximo + 1);
+}
