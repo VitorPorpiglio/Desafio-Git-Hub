@@ -5,6 +5,7 @@ let batatas = numeroBatatas;
 let quantidade;
 let numeroMaximo = 10;
 let palavraBatata;
+let variavelTeste;
 
 if (batatas > 1){
     palavraBatata = "batatas";
