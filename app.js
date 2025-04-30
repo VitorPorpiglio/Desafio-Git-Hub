@@ -3,7 +3,7 @@
 let numeroBatatas = gerarNumeroAleatorio(10);
 let batatas = numeroBatatas;
 let quantidade;
-let numeroMaximo = 100;
+let numeroMaximo = 50;
 let palavraBatata;
 let variavelTeste;
 
