@@ -3,7 +3,7 @@
 let numeroBatatas = gerarNumeroAleatorio(10);
 let batatas = numeroBatatas;
 let quantidade;
-let numeroMaximo = 15;
+let numeroMaximo = 50;
 let palavraBatata;
 let variavelTeste;
 
@@ -18,7 +18,7 @@ ChecarBatatas()
 function ChecarBatatas(){
     console.log (numeroBatatas); 
 
-    if (batatas >= 7){
+    if (batatas >= 15){
         quantidade = `Você tem várias batatas! São ${batatas} ${palavraBatata}.`
     }   else{
         quantidade = `Você tem poucas batatas, apenas ${batatas} ${palavraBatata}.`
